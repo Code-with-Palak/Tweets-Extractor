@@ -1,13 +1,13 @@
 
 import sys, re
 import pandas as pd
-BASE_DIR = 'C:\\Users\\Acer\\Desktop\\Projects\\Sindhu(SENTIMENT ANALYSIS)\\'
-vis_dirct = 'C:/Users//Acer/Desktop/Projects/Sindhu(SENTIMENT ANALYSIS)/visualization/'
+BASE_DIR = 'https://github.com/Code-with-Palak/Tweets-Extractor/'
+vis_dirct = 'https://github.com/Code-with-Palak/Tweets-Extractor/visualization/'
 sys.path.append(BASE_DIR)
 import streamlit as st
 import matplotlib.pyplot as plt
 from PIL import Image
-from utils.tweetsExtract import tweet_extractor, convert_df
+from tweetsExtract import tweet_extractor, convert_df
 
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
@@ -19,8 +19,8 @@ selected_option = st.sidebar.radio("Select one-by-one",['Extract Tweets', 'Data'
 if selected_option == "Extract Tweets":
     st.markdown("<h1 style='text-align: center; text-decoration: underline; color: Brown;'>Extract Tweets</h1>", unsafe_allow_html=True)
     col1, col2 = st.columns(2)
-    img1 = Image.open(BASE_DIR+"elements\\scrapping-tweets1.jpg")
-    img2 = Image.open(BASE_DIR+"elements\\scraping-tweets.png")
+    img1 = Image.open(BASE_DIR+"elements/scrapping-tweets1.jpg")
+    img2 = Image.open(BASE_DIR+"elements/scraping-tweets.png")
     img1 = img1.resize((1000,600))
     img2 = img2.resize((1000,600))
     col1.image(img1)
