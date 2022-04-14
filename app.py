@@ -18,13 +18,13 @@ selected_option = st.sidebar.radio("Select one-by-one",['Extract Tweets', 'Data'
 
 if selected_option == "Extract Tweets":
     st.markdown("<h1 style='text-align: center; text-decoration: underline; color: Brown;'>Extract Tweets</h1>", unsafe_allow_html=True)
-    col1, col2 = st.columns(2)
-    img1 = Image.open(BASE_DIR+"elements/scrapping-tweets1.jpg")
-    img2 = Image.open(BASE_DIR+"elements/scraping-tweets.png")
-    img1 = img1.resize((1000,600))
-    img2 = img2.resize((1000,600))
-    col1.image(img1)
-    col2.image(img2)
+#     col1, col2 = st.columns(2)
+#     img1 = Image.open(BASE_DIR+"elements/scrapping-tweets1.jpg")
+#     img2 = Image.open(BASE_DIR+"elements/scraping-tweets.png")
+#     img1 = img1.resize((1000,600))
+#     img2 = img2.resize((1000,600))
+#     col1.image(img1)
+#     col2.image(img2)
     st.write("")
     string_keywords = st.text_input("Enter your keywords coma(,) seperated")#, placeholder="Enter keyword(s)"
     keywords = string_keywords.split(',')
