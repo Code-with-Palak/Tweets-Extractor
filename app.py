@@ -1,8 +1,8 @@
 
 import sys, re
 import pandas as pd
-BASE_DIR = 'https://github.com/Code-with-Palak/Tweets-Extractor/'
-vis_dirct = 'https://github.com/Code-with-Palak/Tweets-Extractor/visualization/'
+BASE_DIR = 'https://github.com/Code-with-Palak/Tweets-Extractor/tree/main/'
+vis_dirct = 'https://github.com/Code-with-Palak/Tweets-Extractor/tree/main/visualization/'
 sys.path.append(BASE_DIR)
 import streamlit as st
 import matplotlib.pyplot as plt
