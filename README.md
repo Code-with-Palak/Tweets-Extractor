@@ -5,7 +5,7 @@ A handy tool to extract tweets from twitter with respect to keywords and date pr
 
 
 #### >> Access it using the link below
-http://surl.li/btnqx
+https://tinyurl.com/tweet-extractor
 
 
 ## 🔗 Links
