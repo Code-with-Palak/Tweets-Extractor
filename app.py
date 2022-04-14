@@ -50,7 +50,10 @@ if 'data' in st.session_state.keys():
     st.write("")
     dataset = st.session_state['data']
     st.write(dataset)        
+    st.write("Number of samples in the dataset: ",dataset.shape[0])
+    st.write("Number of attributes in the dataset: ", dataset.shape[1])   
     
+    st.write("")
     csv = convert_df(dataset)
     string_keywords = st.session_state['string_keywords']
     d = st.download_button(
