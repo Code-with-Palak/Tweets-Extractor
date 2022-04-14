@@ -1,7 +1,7 @@
 
-# 😎 Tweets-Extractor 
+# 💬 TWEET-EXTRACTIO-TOOL
 
-A handy tool to extract tweets from twitter with respect to the keywords provided by user.
+A handy tool to extract tweets from twitter with respect to keywords and date provided by the user.
 
 
 #### >> Access it using the link below
