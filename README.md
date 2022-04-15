@@ -19,11 +19,13 @@ Steps to follow:
 
 -------------⌛ Data will be fetched out within seconds ⌛---------------
 
----------- 📊  Data is cooked for you, you can downlaod it 📊 ----------
+---------- 📊  Data is cooked for you, you can download it 📊 ----------
 
 
 
 ![Snapshot](https://github.com/Code-with-Palak/Tweets-Extractor/blob/main/tweets_webapp.png)
+
+
 
 ![Snapshot](https://github.com/Code-with-Palak/Tweets-Extractor/blob/main/tweets_webapp2.png)
 
