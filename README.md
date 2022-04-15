@@ -7,7 +7,11 @@ A handy tool to extract tweets from twitter with respect to keywords and date pr
 #### >> Access it using the link below
 https://tinyurl.com/tweet-extractor
 
-![Snapshot](https://github.com/Code-with-Palak/Machine-Learning-Algorithmic-Optimizer/blob/main/tool.png)
+
+#### DEMO OF TOOL
+![Snapshot](https://github.com/Code-with-Palak/Tweets-Extractor/blob/main/tweets_webapp.png)
+
+![Snapshot](https://github.com/Code-with-Palak/Tweets-Extractor/blob/main/tweets_webapp2.png)
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/Palak_gupta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/palak-gupta-ML)
