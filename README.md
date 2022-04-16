@@ -30,7 +30,7 @@ Steps to follow:
 ![Snapshot](https://github.com/Code-with-Palak/Tweets-Extractor/blob/main/tweets_webapp2.png)
 
 ## 🔗 Links
-[![linkedin](https://img.shields.io/badge/Palak_gupta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/palak-gupta-ML)
+[![linkedin](https://img.shields.io/badge/Palak_gupta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/palak-gupta-)
 
 
 ## Authors
