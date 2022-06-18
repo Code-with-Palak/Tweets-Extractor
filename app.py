@@ -11,7 +11,7 @@ from tweetsExtract import tweet_extractor, convert_df
 
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
-st.markdown("<h1 style='text-align: left; text-decoration: underline; color: White;'>Extract Tweets</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: left; text-decoration: underline'>Extract Tweets</h1>", unsafe_allow_html=True)
 st.write("")
 st.write("")
 string_keywords = st.text_input("Enter your keywords coma(,) seperated")#, placeholder="Enter keyword(s)"
@@ -45,7 +45,7 @@ if click:
 dataset=""
     
 if 'data' in st.session_state.keys():
-    st.markdown("<h1 style='text-align: left; text-decoration: underline; color: White;'>Dataset</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: left; text-decoration: underline;'>Dataset</h1>", unsafe_allow_html=True)
     st.write("")
     st.write("")
     dataset = st.session_state['data']
